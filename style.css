@@ -57,3 +57,17 @@ h1 {
 #reset-btn:hover {
     background-color: black;
 }
+
+#new-game-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(47, 47, 47);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+#new-game-btn:hover {
+    background-color: black;
+}
