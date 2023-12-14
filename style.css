@@ -61,6 +61,7 @@ h1 {
 #new-game-btn {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
+    margin-top: 5px;
     background-color: rgb(47, 47, 47);
     border-radius: 5px;
     border: none;
@@ -88,4 +89,5 @@ h1 {
     font-weight: 900;
     font-family: "Montserrat", sans-serif;
     margin-top: 10px;
+    /* text-shadow: 1px 1px 5px white; */
 }
