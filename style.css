@@ -40,7 +40,7 @@ h1 {
     box-shadow: 0 0 0.5rem rgb(156, 156, 156);
     background-color: white;
     color: rgb(47, 255, 113);
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 5rem;
 }
 
@@ -70,4 +70,22 @@ h1 {
 
 #new-game-btn:hover {
     background-color: black;
+}
+
+.win-msg {
+    width: 100%;
+    height: 110px;
+    /* background-color: red; */
+    display: none;
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(50px);
+}
+
+.win-msg h3 {
+    color: red;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
 }
